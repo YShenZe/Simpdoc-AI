@@ -19,5 +19,9 @@
     "glob": "^11.0.1",
     "marked": "^15.0.9",
     "vuetify": "^3.8.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.2",
+    "vite": "^6.3.1"
   }
 }
