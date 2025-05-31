@@ -1,9 +1,9 @@
 {
   "name": "simpdoc",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "build": "vite build"
+    "server": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -11,17 +11,12 @@
   "description": "",
   "dependencies": {
     "@google/generative-ai": "^0.24.0",
-    "@mdi/js": "^7.4.47",
     "@netlify/functions": "^3.1.2",
     "axios": "^1.8.4",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "glob": "^11.0.1",
-    "marked": "^15.0.9",
-    "vuetify": "^3.8.2"
+    "marked": "^15.0.9"
   },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.2",
-    "vite": "^6.3.1"
-  }
+  "devDependencies": {}
 }

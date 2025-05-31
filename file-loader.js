@@ -15,8 +15,7 @@ async function loadMarkdownFiles(dirPath) {
       result.push({
         path: fullPath,
         raw: content,
-        text: marked.parse(content) // 转换 Markdown 为 HTML
-        // 如需纯文本: content.replace(/[#*\-`]/g, '')
+        text: content.replace(/[#*\-`]/g, '') // 转换 Markdown 为 纯文本
       });
     }
   }
